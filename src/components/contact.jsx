@@ -1,40 +1,30 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const form = useRef();
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
-  
-  
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "service_yhpiqt6", // Replace with your actual Service ID
+        "template_1d8m4w9", // Replace with your actual Template ID
+        form.current,
+        "bSK32trT9GvQvC76J" // Replace with your actual Public Key
+      )
       .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
+        () => {
+          alert("Form has been submitted successfully!");
         },
         (error) => {
-          console.log(error.text);
+          console.log("FAILED...", error.text);
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -48,51 +38,55 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
+              <form ref={form} id="contact-form" onSubmit={sendEmail}>
+                <div className="form-group">
+                  <label htmlFor="name">Name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="user_name"
+                    className="form-control"
+                    placeholder="Name"
+                    required
+                  />
                 </div>
                 <div className="form-group">
+                  <label htmlFor="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="user_email"
+                    className="form-control"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="phone">Phone Number:</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="user_phone"
+                    className="form-control"
+                    placeholder="Phone Number"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="message">Message:</label>
                   <textarea
-                    name="message"
                     id="message"
+                    name="user_message"
                     className="form-control"
                     rows="4"
                     placeholder="Message"
-                    required
-                    onChange={handleChange}
                   ></textarea>
-                  <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button
+                  type="submit"
+                  className="btn btn-custom btn-lg"
+                  value="Send"
+                >
                   Send Message
                 </button>
               </form>
@@ -134,14 +128,15 @@ export const Contact = (props) => {
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
+                  
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
                       <i className="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
@@ -152,14 +147,11 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
+          <p>&copy; 2024 Avinayana Dance Academy</p>
         </div>
       </div>
     </div>
   );
 };
+
+export default Contact;

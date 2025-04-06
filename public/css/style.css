@@ -76,21 +76,21 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
-  border-color: rgba(231, 231, 231, 0);
+  background-color: #330f0f;;
+  border-color: #240504;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #ddd;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #ddd;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg.png) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -310,7 +310,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #461a1a 0%, #3a0f0f 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -350,7 +350,7 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio Section */
+/* Portfolio Section doesnot work here cz we do handle it in gallery.jsx file */ 
 #portfolio {
   padding: 100px 0;
 }
@@ -445,23 +445,41 @@ header .intro-text {
 }
 #team h4 {
   margin: 5px 0;
+  font-size: 18px; /* Ensures consistent heading size */
+  font-weight: bold; /* Improves readability */
 }
 #team .team-img {
-  width: 240px;
+  width: 100%; /* Ensures the image scales to fit the container width */
+  height: 240px; /* Standardizes the height for symmetry */
+  object-fit: cover; /* Keeps image proportions while cropping excess */
+  border-radius: 8px; /* Adds rounded corners for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
 }
 #team .thumbnail {
-  background: transparent;
-  border: 0;
+  background: #fff; /* Adds a subtle background for contrast */
+  border: 1px solid #ddd; /* Defines a subtle border for separation */
+  border-radius: 8px; /* Matches the image's border radius */
+  overflow: hidden; /* Ensures content stays within bounds */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+   margin: 25px; 
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+}
+#team .thumbnail:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
-  color: #888;
+  color: #555; /* Slightly darker color for better readability */
+  font-size: 14px; /* Ensures text is readable */
+  text-align: center; /* Centers the caption text */
 }
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  background: linear-gradient(to right, #461a1a 0%, #3a0f0f 100%);
+  color: rgb(0 0 0 / 75%);
 }
 #contact .section-title {
   margin-bottom: 40px;

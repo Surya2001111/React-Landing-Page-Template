@@ -1,184 +1,157 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Avinayana Dance Academy",
+    "paragraph": "Avinayana Dance Academy is a premier institution specializing in classical, semi-classical,and folk dance forms. Founded by the esteemed Mrs. Rojalin Sundaray, the academyis dedicated to fostering a deep appreciation for Indian dance traditions."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Avinayana Dance Academy is a premier institution specializing in classical, semi-classical,and folk dance forms. Founded by the esteemed Mrs. Rojalin Sundaray, the academy is dedicated to fostering a deep appreciation for Indian dance traditions. With its headquartersin Pattaniakia, Sakhigopal, and a newly opened branch in Trisulia, Cuttack, Avinayana Dance Academy has become a significant cultural center for aspiring dancers.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Expert Faculty",
+      "Founder-Led Training",
+      "Cultural Foundation",
+      "Performance Opportunities"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Customized Learning",
+      "Certification & Recognition",
+      "Vibrant Community",
+      "Expanding Presence"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "ADA",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/services/beginer.jpg",
+      "name": "Beginner Dance Classes",
+      "text": "Perfect for those just starting out! Learn the fundamentals of movement, rhythm, and coordination in a fun and supportive environment."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/services/odissi-classic.jpg",
+      "name": "Odissi Classical Dance Training",
+      "text": "Dive into the grace and spiritual depth of Odissi, one of India’s oldest classical dance forms. our expert-led training helps you master this elegant art form with authenticity and discipline. "
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/services/samberpuri.jpg",
+      "name": "Sambalpuri & Folk Dance Styles",
+      "text": "Celebrate the rich cultural heritage of India through vibrant Sambalpuri and traditional folk dance forms. Learn expressive movements, rhythmic footwork, and the stories behind each dance in an energetic and joyful environment."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/services/master-class.jpg",
+      "name": "Dance Workshops & Masterclasses",
+      "text": "Level up your skills with our exclusive workshops and masterclasses led by guest artists and industry professionals. From technique refinement to performance tips, get inspired and grow as a dancer!"
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/services/kids.jpg",
+      "name": "Kids Dance Program",
+      "text": "Specially crafted for little feet! Our kids' sessions combine fun and learning, focusing on basic techniques, expression, and confidence building."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/services/coreographi.jpg",
+      "name": "Choreography for Events",
+      "text": "Make your special day unforgettable! We offer customized choreography for weddings, school functions, corporate events, and more."
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "name": "Abhijit Das",
       "job": "Director"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Rojalin Sundaray",
+      "job": "Dancer(Secretary)"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Saswati Dash",
+      "job": "Singer"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Soumya Ranjan Sahoo",
+      "job": "Guitarist"
+    },
+    {
+      "img": "img/team/05.jpg",
+      "name": "Chinmay Nayak",
+      "job": "Dancer"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Naranpur, near Indian OIL Petrol Pump Infront of KIIS Ladies Hostel, near Trisulia, Odisha 754005 ",
+    "phone": "+91 9078954524",
+    "email": "ada.odissi@gmail.com",
+    "facebook": "https://www.facebook.com/ada.odissi/",
+    "youtube": "https://www.youtube.com/@AvinayanaDanceAcademy",
+    "instagram" : "https://www.instagram.com/ada.odissi/"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "image": "img/achivements/01.jpg",
+      "title": "25+",
+      "text": "INTERSTATE PARTICIPATIONS"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "image": "img/achivements/02.jpg",
+      "title": "200+",
+      "text": "EVENTS IN VARIOUS CULTURAL GENRES"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "image": "img/achivements/03.jpg",
+      "title": "FELICIATED BY",
+      "text": "Sri. RAMNATH KOBIND & Sri. NARENDRA DAMODARDAS MODI"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "image": "img/achivements/04.jpg",
+      "title": "50+",
+      "text": "RENOWNED ARTIST"
     }
   ]
 }
